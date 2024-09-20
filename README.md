@@ -4,7 +4,7 @@ Um serviço de gestão de carros utilizando Spark, ObjectMapper, ModelMapper, al
 
 ## Descrição
 
-Este projeto é uma aplicação Java desenvolvida para demonstrar o uso de várias tecnologias e conceitos modernos, incluindo:
+Este projeto é uma aplicação Java desenvolvida para demonstrar o uso de várias tecnologias e conceitos de microsserviços, incluindo:
 
 - **Spark**: Para construção de APIs e microserviços.
 - **ObjectMapper**: Para manipulação de objetos JSON.
