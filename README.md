@@ -9,7 +9,7 @@ Este projeto é uma aplicação Java desenvolvida para demonstrar o uso de vári
 - **Spark**: Para construção de APIs e microserviços.
 - **ObjectMapper**: Para manipulação de objetos JSON.
 - **ModelMapper**: Para simplificação e mapeamento entre diferentes modelos de dados.
-- **Microserviços**: Estrutura de arquitetura que permite a comunicação entre serviços independentes.
+- **Microsserviços**: Estrutura de arquitetura que permite a comunicação entre serviços independentes.
 - **JUnit**: Framework de testes para execução de testes unitários.
 
 ## Tecnologias Utilizadas
