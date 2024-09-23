@@ -12,7 +12,7 @@ public class GenericDAO<E> {
     private Class<E> eClass;
     static  {
         try {
-            emf = Persistence.createEntityManagerFactory("concessionaria");
+            emf = Persistence.createEntityManagerFactory("gerenciadorCarros");
         } catch (Exception e) {
             throw new RuntimeException(e.getMessage());
         }

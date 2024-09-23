@@ -35,7 +35,7 @@ public class CarroControllerTest {
             json.put("placa", carroDTOInput.getPlaca());
             json.put("chassi", carroDTOInput.getChassi());
             conexao.getOutputStream().write(json.toString().getBytes());
-            Assertions.assertEquals(201, conexao.getResponseCode());
+            Assertions.assertEquals(HttpURLConnection.HTTP_CREATED, conexao.getResponseCode());
         }
     }
     @Test
@@ -52,7 +52,7 @@ public class CarroControllerTest {
             ObjectMapper object  = new ObjectMapper();
             String json = object.writeValueAsString(carroDTOInput);
             conexao.getOutputStream().write(json.getBytes());
-            Assertions.assertEquals(201, conexao.getResponseCode());
+            Assertions.assertEquals(HttpURLConnection.HTTP_CREATED, conexao.getResponseCode());
         }
     }
     static CarroDTOInput getCarroDTOInputJsonObject(HttpURLConnection conexaoApiCars) throws IOException {
